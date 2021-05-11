@@ -1,0 +1,32 @@
+extends ./layout/index 
+
+block contenido 
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nostros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere iaculis elit, in dapibus neque tempus a. Ut vel malesuada ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+
+                p Mauris eu sem eget urna varius tincidunt. Nullam pretium euismod ipsum in finibus. Sed nec facilisis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer massa dolor, rhoncus ut convallis in, pretium eget ex.
+
+                p Nulla consectetur nulla in euismod iaculis. Maecenas a tellus vitae nisi aliquet varius sed ut velit. Quisque sit amet quam vulputate, mollis orci eget, feugiat odio.
+    
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Vestibulum eu facilisis dolor. Fusce neque dolor, laoreet a eros eget, fringilla efficitur sapien. Nulla pulvinar laoreet magna vitae sollicitudin. In congue interdum sodales.
+                    
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos  
+                    p Vestibulum eu facilisis dolor. Fusce neque dolor, laoreet a eros eget, fringilla efficitur sapien. Nulla pulvinar laoreet magna vitae sollicitudin. In congue interdum sodales.
+
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precios 
+                    p Vestibulum eu facilisis dolor. Fusce neque dolor, laoreet a eros eget, fringilla efficitur sapien. Nulla pulvinar laoreet magna vitae sollicitudin. In congue interdum sodales.
